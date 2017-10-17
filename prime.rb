@@ -7,7 +7,7 @@ def prime?(number)
     return false
   elsif number <= 1
     return false
-  elsif number.odd? &&  number % 3 == 0  && number == !3
+  elsif number.odd?  && number > 3
     return false
   else
     return true
