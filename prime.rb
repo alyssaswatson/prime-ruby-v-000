@@ -7,7 +7,7 @@ def prime?(number)
     return false
   elsif number <= 1
     return false
-  elsif if (2...n-1).any?{|i| n % i == 0}
+  elsif (2...n-1).any?{|i| n % i == 0}
     return false
   else
     return true
